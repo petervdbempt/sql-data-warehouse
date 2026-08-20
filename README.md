@@ -12,6 +12,10 @@ The warehouse follows the Medallion architecture to process and refine the data:
 * **Silver** – Cleaned and standardized data. This is where I handled real-world data quality issues like invalid values, inconsistent formats, and duplicates.
 * **Gold** – The final, business-ready data organized into a **star schema**. By building fact and dimension tables, I made the data easy to query and analyze from different perspectives, such as customers, products, and dates.
 
+Below is a visualization of the architecture:
+
+![Data Architecture](docs/data_architecture.png)
+
 ## What I Practiced
 
 Throughout this project, I worked on:
